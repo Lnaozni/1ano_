@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - Especial de 1 ano</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/png">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><img src="assets/logo.png"></a>
+        <ul class="navigation">
+            <li><a href="#">365 dias</a></li>
+            <li><a href="#">52 semanas</a></li>
+            <li><a href="#">8.760 horas</a></li>
+            <li><a href="#">525.600 minutos</a></li>
+            <li><a href="#">31.536.000 segundos</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="fas fa-search"></i>
+        </div>
+    </header>
+
+    <div class="banner">
+        <img src="assets/bg.jpg" class="bg">
+
+        <div class="content">
+            <img src="assets/merliah.png" class="movieTitle">
+            <h4>
+                <span>2022</span>
+                <span><i>365+</i></span>
+                <span>For the entire life</span>
+                <span>I love you beyond the universe</span>
+            </h4>
+            <p>
+                É meu amor  365 dias ao seu lado, quem diria que o tempo iria passar tão rapido assim, 365 dias estou sendo a pessoa mais feliz do universo!! Quero estar ao seu lado todos os dias da minha vida para todo o sempre, quero ser o homem da sua vida, quero ser o pai dos seus filhos e quero que seja mãe dos meus filhos, quero me casar com você e realizar todos nossos sonhos
+                Eu te amo mai que tudo nessa vida, estarei sempre ao seu lado!! Eu te amo além do universo! Voce é o amor da minha vida!!! Sou completamente apaixonado por voce!!!
+            </p>
+
+            <div class="buttons">
+                <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Play</a>
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> My List</a>
+            </div>
+        </div>
+        <a class="play" onclick="toggleVideo()"><img src="assets/play.png">Watch Trailer</a>
+    </div>
+
+    <div class="trailer">
+        <video src="assets/video.mp4" controls="true"></video>
+        <img src="assets/close.png" class="close" onclick="toggleVideo()">
+    </div>
+</body>
+    <script src="src/script.js"></script>
+    <script src="https://yagasaki7k.github.io/custom-scripts/font-awesome.js"></script>
+</html>

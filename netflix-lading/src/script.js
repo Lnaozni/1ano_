@@ -1,0 +1,1 @@
+function toggleVideo(){const a=document.querySelector(".trailer"),b=document.querySelector("video");a.classList.toggle("active"),b.currentTime=0,b.pause()}
